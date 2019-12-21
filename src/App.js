@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import { HashRouter as Router, Route, Switch } from 'react-router-dom';
 
 import Header from '../src/components/layout/Header';
 import Footer from '../src/components/layout/Footer';
@@ -14,8 +14,7 @@ function App() {
     <div className='container'>
       <Router>
         <div>
-          
-        <Header />
+          <Header />
 
           <div>
             <Switch>
@@ -28,10 +27,8 @@ function App() {
           </div>
 
           <Footer />
-
         </div>
       </Router>
-      
     </div>
   );
 }
