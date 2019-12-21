@@ -48,13 +48,16 @@ const Work = () => {
         It was developed to use for driving teaching schools/institute
         (Learners). The hosted service is a free service.
       </p>
+
       <details className='d-inline-flex'>
-        <summary>Issues in free hosting Server</summary>
+        <summary className='text-secondary'>
+          Issues in free hosting Server
+        </summary>
         <p className='text-justify'>
-          Therefore when the users reach more than the limited capacity per day,
-          server is automatically blocked the web site. So web site may
-          suspended for 24h after that. Please note that, that is not an error
-          of the web application.
+          As the hosting site is free service, when the users reach more than
+          the limited capacity per day, server is automatically blocked the web
+          site. So web site may suspended for 24h after that. Please note that,
+          that is not an error of the web application.
         </p>
       </details>
       <p></p>
@@ -103,7 +106,7 @@ const Work = () => {
           current situation of the project.
         </p>
         <details className='d-inline-flex'>
-          <summary>More Information</summary>
+          <summary className='text-secondary'>More Information</summary>
           <p className='text-justify'>
             {' '}
             To Work on it, either clone or download the project. read
