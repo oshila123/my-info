@@ -1,23 +1,12 @@
 import React, { Fragment } from 'react';
 import { Link } from 'react-router-dom';
 
-import Time from './Time';
-
-/* const Time = () => {
-  setInterval(() => {
-    this.useState({
-      curTime: new Date().toLocaleString()
-    });
-  }, 1000);
-}; */
-
 const Header = () => {
   return (
     <Fragment>
       <div className='cover-container d-flex w-100 h-100 p-3 mx-auto flex-column'></div>
       <header className='masthead mb-auto text-center'>
         <div className='inner'>
-          <Time className='h1' />
 
           <h3 className='masthead-brand'>OZi</h3>
 

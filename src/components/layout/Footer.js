@@ -1,5 +1,7 @@
 import React from 'react';
 
+import Time from './Time';
+
 const Footer = () => {
   return (
     <div>
@@ -19,6 +21,8 @@ const Footer = () => {
           <i className='fab fa-linkedin-in'> </i>
         </a>
       </p>
+      
+       <Time  />
     </div>
   );
 };
