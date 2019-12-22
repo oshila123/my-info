@@ -49,7 +49,7 @@ const Work = () => {
         (Learners). The hosted service is a free service.
       </p>
 
-      <details className='d-inline-flex'>
+      <details className=''>
         <summary className='text-secondary'>
           Issues in free hosting Server
         </summary>
@@ -105,7 +105,7 @@ const Work = () => {
           to find a hosting service which supports JSON Server live with the
           current situation of the project.
         </p>
-        <details className='d-inline-flex'>
+        <details className=''>
           <summary className='text-secondary'>More Information</summary>
           <p className='text-justify'>
             {' '}

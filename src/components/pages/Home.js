@@ -48,7 +48,7 @@ const Home = () => {
               </a>
             </li>
             <li className=''>Upcoming SMS Portal.</li>
-            <li>Upcoming Universal (4G / CDMA / SMS) Portal.</li>
+            <li>Upcoming Universal (4G / CDMA ) Portal.</li>
             <li>Internal Website called Intranet.</li>
           </ul>
         </dl>
