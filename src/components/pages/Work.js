@@ -3,18 +3,22 @@ import React from 'react';
 const Work = () => {
   return (
     <div style={{ paddingTop: '40px' }}>
-      <h4 className='text-center'>Projects that I have worked my self</h4>
+      <h4 className='text-center'>Few projects that I engaged</h4>
 
       <p className='pt-4 text-justify'>
         The below project was actually I created for a business request. PHP
         used for this and{' '}
-        <a
-          href='https://cakephp.org/'
-          rel='noopener noreferrer'
-          target='_blank'
-          className='text-decoration-none'>
-          CakePHP
-        </a>{' '}
+        <em>
+          <abbr title='click here to visit CakePHP Web site'>
+            <a
+              href='https://cakephp.org/'
+              rel='noopener noreferrer'
+              target='_blank'
+              className='text-decoration-none'>
+              CakePHP
+            </a>
+          </abbr>
+        </em>{' '}
         is the framework I selected to do the project for the backend. In the
         frontend, used{' '}
         <a
@@ -32,13 +36,17 @@ const Work = () => {
         <dl>
           <ul>
             <li>
-              <a
-                href='http://learners.rf.gd/login'
-                rel='noopener noreferrer'
-                target='_blank'
-                className='text-decoration-none'>
-                Learners App
-              </a>
+              <em>
+                <abbr title='click here to visit Learners Web App'>
+                  <a
+                    href='http://learners.rf.gd/login'
+                    rel='noopener noreferrer'
+                    target='_blank'
+                    className='text-decoration-none'>
+                    Learners App
+                  </a>
+                </abbr>
+              </em>
             </li>
           </ul>
         </dl>
@@ -49,17 +57,17 @@ const Work = () => {
         (Learners). The hosted service is a free service.
       </p>
 
-      <details className=''>
+      <details className='pb-2'>
         <summary className='text-secondary'>
           Issues in free hosting Server
         </summary>
-        <p className='text-justify'>
+        <p className='text-justify font-italic'>
           As the hosting site is free service, when the users reach more than
           the limited capacity per day, server is automatically blocked the web
           site. So web site may suspended for 24h after that. Please note that,
           that is not an error of the web application.
         </p>
-        <p className='text-justify'>
+        <p className='text-justify font-italic'>
           This is the version 1. It's really difficult to update the code files
           or Database structure modification in this server.
         </p>
@@ -87,85 +95,105 @@ const Work = () => {
 
       <ul>
         <li>
-          <a
-            href='https://github.com/oshila123/adv-blog-app'
-            rel='noopener noreferrer'
-            target='_blank'
-            className='text-decoration-none '>
-            Advertisement App . (a Github project)
-          </a>
+          <em>
+            <abbr title='click here to visit Advertisement Web App'>
+              <a
+                href='https://github.com/oshila123/adv-blog-app'
+                rel='noopener noreferrer'
+                target='_blank'
+                className='text-decoration-none '>
+                Advertisement App . (a Github project)
+              </a>
+            </abbr>
+          </em>
         </li>
         <p className='text-justify'>
           This project was based on the Tutorial{' '}
-          <a
-            href='https://www.udemy.com/course/react-redux/'
-            rel='noopener noreferrer'
-            target='_blank'
-            className='text-decoration-none text-uppercase '>
-            Modern React with Redux [2019 Update]
-          </a>{' '}
+          <em>
+            <abbr title='click here to visit Modern React with Redux [2019 Update] Tutorial'>
+              <a
+                href='https://www.udemy.com/course/react-redux/'
+                rel='noopener noreferrer'
+                target='_blank'
+                className='text-decoration-none text-uppercase '>
+                Modern React with Redux [2019 Update]
+              </a>
+            </abbr>
+          </em>{' '}
           with some modification. For that project React JS, Redux, JSON Server
-          are the major. Redux used. Couldn't Deploy this project due to unable
-          to find a hosting service which supports JSON Server live with the
-          current situation of the project.
+          are the major. Redux used.
         </p>
         <details className=''>
           <summary className='text-secondary'>More Information</summary>
-          <p className='text-justify'>
+          <p className='text-justify font-italic'>
             {' '}
-            To Work on it, either clone or download the project. read
+            Couldn't Deploy this project due to unable to find a hosting service
+            which supports JSON Server live with the current situation of the
+            project. To Work on it, either clone or download the project. read
             'README.md' file for installation process.{' '}
-            <i>
-              Usually I am not creating public projects in Github. This is
-              because I couldn't deploy it.{' '}
-            </i>
           </p>
         </details>
         <p></p>
 
         <li>
-          <a
-            href='https://oshila-ecommerce.herokuapp.com'
-            rel='noopener noreferrer'
-            target='_blank'
-            className='text-decoration-none'>
-            E-Commerce App
-          </a>
+          <em>
+            <abbr title='click here to visit E-Commerve Web App'>
+              <a
+                href='https://oshila-ecommerce.herokuapp.com'
+                rel='noopener noreferrer'
+                target='_blank'
+                className='text-decoration-none'>
+                E-Commerce App
+              </a>
+            </abbr>
+          </em>
           <p className='text-justify'>
             This is the biggest project I have done so far. React JS, Firebase
             are the main features used in this project. This is based on the
             tutorial{' '}
-            <a
-              href='https://www.udemy.com/course/complete-react-developer-zero-to-mastery/'
-              rel='noopener noreferrer'
-              target='_blank'
-              className='text-decoration-none text-uppercase'>
-              Complete React Developer in 2020 (w/ Redux, Hooks, GraphQL) .
-            </a>{' '}
-            a complete e-commerce web site. But unfortunately I didn't complete
-            the entire course just to save my time. This is an advanced course.
-            I just need the basic level and medium level as I am just new to the
+            <em>
+              <abbr title='click here to visit Complete React Developer in 2020 (w/ Redux, Hooks, GraphQL) Tutorial'>
+                <a
+                  href='https://www.udemy.com/course/complete-react-developer-zero-to-mastery/'
+                  rel='noopener noreferrer'
+                  target='_blank'
+                  className='text-decoration-none text-uppercase'>
+                  Complete React Developer in 2020 (w/ Redux, Hooks, GraphQL) .
+                </a>
+              </abbr>
+            </em>{' '}
+            a complete e-commerce web site. But I didn't go through the entire
+            course just to save my time as this project is an advanced course. I
+            just need the basic level and medium level as I am just new to the
             React JS.
           </p>
           <p></p>
         </li>
         <li>
-          <a
-            href='https://oshila-contact-keeper.herokuapp.com'
-            rel='noopener noreferrer'
-            target='_blank'
-            className='text-decoration-none'>
-            Contact Keeper App
-          </a>
+          <em>
+            <abbr title='click here to visit Contact Keeper Web App'>
+              <a
+                href='https://oshila-contact-keeper.herokuapp.com'
+                rel='noopener noreferrer'
+                target='_blank'
+                className='text-decoration-none'>
+                Contact Keeper App
+              </a>
+            </abbr>
+          </em>
           <p className='text-justify'>
             This app is based on the tutorial{' '}
-            <a
-              href='https://www.udemy.com/course/modern-react-front-to-back'
-              rel='noopener noreferrer'
-              target='_blank'
-              className='text-decoration-none text-uppercase'>
-              React Front To Back 2019
-            </a>
+            <em>
+              <abbr title='click here to visit React Front To Back 2019 Tutorial'>
+                <a
+                  href='https://www.udemy.com/course/modern-react-front-to-back'
+                  rel='noopener noreferrer'
+                  target='_blank'
+                  className='text-decoration-none text-uppercase'>
+                  React Front To Back 2019
+                </a>
+              </abbr>
+            </em>
           </p>
           <p>React Context API used. NodeJS used for the back end</p>
         </li>

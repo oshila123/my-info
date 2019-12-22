@@ -1,29 +1,30 @@
 import React, { Fragment } from 'react';
-import { Link } from 'react-router-dom';
+import { Link, NavLink } from 'react-router-dom';
 
-const Header = () => {
+const Header = props => {
   return (
     <Fragment>
       <div className='cover-container d-flex w-100 h-100 p-3 mx-auto flex-column'></div>
       <header className='masthead mb-auto text-center'>
         <div className='inner'>
-
-          <h3 className='masthead-brand'>OZi</h3>
-
-          <img
-            src='logo.png'
-            alt=''
-            className='img-fluid'
-            style={{ width: '50px' }}
-          />
+          <Link to='/'>
+            <h3 className='masthead-brand'>OZi</h3>
+          </Link>
+          <Link to='/'>
+            <img
+              src='logo.png'
+              alt=''
+              className='img-fluid'
+              style={{ width: '50px' }}
+            />
+          </Link>
           <nav className='nav nav-masthead justify-content-center'>
-            <Link className='nav-link' to='/'>
+            <NavLink exact className='nav-link' to='/'>
               Home
-            </Link>
-
-            <Link className='nav-link' to='/Work'>
+            </NavLink>
+            <NavLink exact className='nav-link' to='/work'>
               Work
-            </Link>
+            </NavLink>
           </nav>
         </div>
       </header>
