@@ -20,7 +20,6 @@ a:hover {
     border: .05rem solid #fff;
 }
 
-
 /*
  * Base structure
  */
@@ -32,17 +31,13 @@ body {
 }
 
 body {
-    display: -ms-flexbox;
-    display: flex;
     color: #fff;
     text-shadow: 0 .05rem .1rem rgba(0, 0, 0, .5);
-    box-shadow: inset 0 0 5rem rgba(0, 0, 0, .5);
 }
 
 .cover-container {
     max-width: 42em;
 }
-
 
 /*
  * Header
@@ -87,7 +82,6 @@ body {
     }
 }
 
-
 /*
  * Cover
  */
@@ -99,7 +93,6 @@ body {
     padding: .75rem 1.25rem;
     font-weight: 700;
 }
-
 
 /*
  * Footer

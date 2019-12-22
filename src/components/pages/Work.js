@@ -25,7 +25,7 @@ const Work = () => {
           DataTables
         </a>{' '}
         As it filter data quickly throughout the all the pages in paginated data
-        table
+        table.
       </p>
 
       <ul>
@@ -58,6 +58,10 @@ const Work = () => {
           the limited capacity per day, server is automatically blocked the web
           site. So web site may suspended for 24h after that. Please note that,
           that is not an error of the web application.
+        </p>
+        <p className='text-justify'>
+          This is the version 1. It's really difficult to update the code files
+          or Database structure modification in this server.
         </p>
       </details>
       <p></p>
