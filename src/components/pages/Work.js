@@ -165,7 +165,7 @@ const Work = () => {
             a complete e-commerce web site. But I didn't go through the entire
             course just to save my time as this project is an advanced course. I
             just need the basic level and medium level as I am just new to the
-            React JS.
+            React JS. Just to prove my capabilities.
           </p>
           <p></p>
         </li>

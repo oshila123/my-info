@@ -45,7 +45,7 @@ const Home = () => {
       </div>
       <p className='text-justify'>
         I was the Web Desinger for Lanka Bell Limited during the time period of
-        2018 October - 2019 July.
+        October 2018 - July 2019.
       </p>
       <p>During that period, I was responsible for following projects.</p>
 
@@ -86,7 +86,7 @@ const Home = () => {
       </h4>
       <p className='text-justify'>
         I was a Software Engineer (Intern) in the TWC Innovations during the
-        time period of 2017 December - 2018 July.
+        time period of December 2017 - July 2018.
       </p>
       <p>
         Following were the few projects that I was responsible during the time
