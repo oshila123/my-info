@@ -16,6 +16,13 @@ $theme-colors: (
 );
 $body-bg : #edf2f4;
 
+.text-tertiary{
+  color: $tertiary;
+}
+.text-quaternary{
+  color: $quaternary;
+}
+
 $font-family-base : $primary_font;
 $headings-font-family : $primary_font;
 // $font-size-base : 1.29rem;

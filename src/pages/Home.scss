@@ -1,9 +1,8 @@
-// @import "~bootstrap/scss/bootstrap-grid";
-@import 'node_modules/bootstrap/scss/bootstrap-grid.scss';
-
-.slider{
-    img{
-        object-fit: cover !important;
-        max-height: 600px;
-    }
+.parallax{
+    background-image: url('../assets/img/about.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
 }
