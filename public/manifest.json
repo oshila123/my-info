@@ -1,7 +1,6 @@
 {
-  "short_name": "Oshila IShitha",
-  "name": "Oshila IShitha's Bio Web Site",
-  "description": "A simple web site hosted in Github to show my capabilities in React JS",
+  "short_name": "React App",
+  "name": "Create React App Sample",
   "icons": [
     {
       "src": "favicon.ico",
