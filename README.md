@@ -1,6 +1,6 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-Hosted with [Oshila123 Github account](https://oshila123.github.io/my-info/)
+Hosted in [https://oshila123.github.io/my-info](https://oshila123.github.io/my-info/)
 
 ## Available Scripts
 
