@@ -15,8 +15,14 @@
     height: 150px;
     background-color: #90e0ef;
 
-    h4{
+    .footer{
       padding-top: 75px;
+
+      a{
+&:hover{
+  color: $quinary;
+}
+      }
     }
   }
 }
