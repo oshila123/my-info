@@ -1,13 +1,14 @@
 import React from 'react';
 import { Navbar, Nav, NavDropdown } from 'react-bootstrap';
+import './Header.scss';
 
 const Header = () => {
     return (
         <header>
             <div className="container">
-                <Navbar >
+                <Navbar  >
                     <Navbar.Brand href="#home">Oshila Gunerathne</Navbar.Brand>
-                    <Navbar.Collapse id="basic-navbar-nav">
+                    {/* <Navbar.Collapse id="basic-navbar-nav">
                         <Nav className="mr-auto">
                             <Nav.Link href="#home">Home</Nav.Link>
                             <Nav.Link href="#link">Link</Nav.Link>
@@ -19,7 +20,7 @@ const Header = () => {
                                 <NavDropdown.Item href="#action/3.4">Separated link</NavDropdown.Item>
                             </NavDropdown>
                         </Nav>
-                    </Navbar.Collapse>
+                    </Navbar.Collapse> */}
                 </Navbar>
             </div>
         </header>
