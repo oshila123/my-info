@@ -12,15 +12,28 @@ const Work = () => {
                     <div className="col-12 text-quaternary">
                         <div className="oganro">
                             <div className="row">
-                                <div className="col-4">
-                                    <h5>Oganro Ltd - TRAINEE UI DEVELOPER</h5>
-                                    <p>January 1<sup>st</sup> 2020 to present</p>
+                                <div className="col-12 col-lg-4">
+                                    <h5> <a href="https://www.oganro.com/" className="text-decoration-none text-quaternary university" target="_blank" rel="noopener noreferrer">Oganro Limited </a> - UI DEVELOPER</h5>
+                                    <p >January 2020 to present</p>
                                 </div>
                                 <div className="col-8">
                                     <ul>
                                         <li>Responsible in doing UI developments. Both scratch to final production as well UI modifications.</li>
                                         <li>Online booking engines like Flight booking, Hotel booking web applications.</li>
-                                        <li>Wordpress plugins</li>
+                                        <li>Impliment Paymentgateways to those sites</li>
+                                        <li>REST API calls</li>
+                                        <li>Wordpress plugin</li>
+                                        <li>Technologies using
+                                            <ul>
+                                                <li>JavaScript</li>
+                                                <li>ReactJS</li>
+                                                <li>Angular</li>
+                                                <li>Bootstrap</li>
+                                                <li>CSS</li>
+                                                <li>SCSS</li>
+                                                <li>GIT</li>
+                                            </ul>
+                                        </li>
                                     </ul>
 
                                 •	Main responsible with the front-end development as well as modifications.

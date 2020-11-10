@@ -1,24 +1,28 @@
-import React, { Fragment, useEffect, useState } from 'react'
+import React, { Fragment } from 'react'
+import * as moment from 'moment'
 import './About.scss';
 
-import Typical from 'react-typical'
-import Clock from 'react-clock';
+// import Typical from 'react-typical'
+// import Clock from 'react-clock';
 
 const About = () => {
 
-    const [value, setValue] = useState(new Date());
+    // const [value, setValue] = useState(new Date());
 
-    useEffect(() => {
-        const interval = setInterval(
-            () => setValue(new Date()),
-            1000
-        );
+    // useEffect(() => {
+    //     const interval = setInterval(
+    //         () => setValue(new Date()),
+    //         1000
+    //     );
 
 
-        return () => {
-            clearInterval(interval);
-        }
-    }, []);
+    //     return () => {
+    //         clearInterval(interval);
+    //     }
+    // }, []);
+
+    const bday = '1993-06-03'
+    const year = moment().format('YYYY') - moment(bday).format('YYYY')
 
     return (
         <Fragment>
@@ -31,18 +35,23 @@ const About = () => {
                         </div>
                         <div className="col-12 text-quaternary">
 
-                            <Typical
-                                steps={['Hello', 1000, 'Hello world!', 500]}
+                            {/* <Typical
+                                steps={['', 1000, 'Welcome!', 1000]}
                                 loop={Infinity} // amount / times
                                 wrapper="p"
                             />
 
-                            <Clock value={value} />
+                            <Clock value={value} /> */}
 
-                            I am Oshila Gunerathne, 27 years old.
-                            Currently working on a software company by involving in Online booking engines such as flight booking and hotel booking.
-                                    BSc. (Hons) in Computer Science Graduated from <a href="https://www.ucd.ie/" className="text-decoration-none text-quaternary university" target="_blank" rel="noopener noreferrer">University College Dublin, Ireland </a>
+                            <div>
+                                I am Oshila Gunerathne, {year} years old. Currently working on a software company called
+                                    <a href="https://www.oganro.com/" className="text-decoration-none text-quaternary university" target="_blank" rel="noopener noreferrer">Oganro Limited </a>
+                                as UI Developer. I am involving in Online booking engines such as flight booking and hotel booking.
+                            </div>
+                            <div>
+                                BSc. (Hons) in Computer Science Graduated from <a href="https://www.ucd.ie/" className="text-decoration-none text-quaternary university" target="_blank" rel="noopener noreferrer">University College Dublin, Ireland </a>
                                     with Second Class Honours of 2.98 GPA.
+                            </div>
                         </div>
                     </div>
                 </div>
