@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { Carousel } from 'react-bootstrap';
+
 import reactImage from '../../assets/img/react.jpg';
 // import react2Image from '../../assets/img/react-2.jpg';
 import angularImage from '../../assets/img/angular.jpg';
@@ -12,7 +13,6 @@ const CarouselComponent = () => {
     const handleSelect = (selectedIndex, e) => {
         setIndex(selectedIndex);
     };
-
 
     return (
         <div className="slider">

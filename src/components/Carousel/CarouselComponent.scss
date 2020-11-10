@@ -2,9 +2,12 @@
 
 .slider{
     display: contents;
+    height: 100vh;
+
     img{
         object-fit: cover !important;
-        max-height: 600px;  //need to changed in small devices
+        // max-height: 600px;  //need to changed in small devices
+        height: 100vh;
     }
 
     .content-overlay-topic{
