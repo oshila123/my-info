@@ -43,12 +43,12 @@ const About = () => {
 
                             <Clock value={value} /> */}
 
-                            <div>
-                                I am Oshila Gunerathne, {year} years old. Currently working on a software company called
+                            <div className="text-justify">
+                                I am Oshila Gunerathne, {year} years old. Have over 2years of software developemt experince. Currently working on a software company called
                                     <a href="https://www.oganro.com/" className="text-decoration-none university" target="_blank" rel="noopener noreferrer"> Oganro Limited </a>
                                 as a UI Developer. I am involving in developing, implementing Online booking engines such as flight booking and hotel booking and several other projects. mostly with forign client projects.
                             </div>
-                            <div>
+                            <div className="mt-3">
                                 BSc. (Hons) in Computer Science Graduated from <a href="https://www.ucd.ie/" className="text-decoration-none university" target="_blank" rel="noopener noreferrer">University College Dublin, Ireland </a>
                                     with Second Class Honours of 2.98 GPA.
                             </div>
