@@ -30,10 +30,10 @@ const About = () => {
             <div className="about parallax">
                 <div className="container pt-3 pt-lg-5">
                     <div className="row">
-                        <div className="col-12 text-tertiary">
+                        <div className="col-12">
                             <h4>About Me </h4>
                         </div>
-                        <div className="col-12 text-quaternary">
+                        <div className="col-12">
 
                             {/* <Typical
                                 steps={['', 1000, 'Welcome!', 1000]}
@@ -45,11 +45,11 @@ const About = () => {
 
                             <div>
                                 I am Oshila Gunerathne, {year} years old. Currently working on a software company called
-                                    <a href="https://www.oganro.com/" className="text-decoration-none text-quaternary university" target="_blank" rel="noopener noreferrer">Oganro Limited </a>
-                                as UI Developer. I am involving in Online booking engines such as flight booking and hotel booking.
+                                    <a href="https://www.oganro.com/" className="text-decoration-none university" target="_blank" rel="noopener noreferrer"> Oganro Limited </a>
+                                as a UI Developer. I am involving in developing, implementing Online booking engines such as flight booking and hotel booking and several other projects. mostly with forign client projects.
                             </div>
                             <div>
-                                BSc. (Hons) in Computer Science Graduated from <a href="https://www.ucd.ie/" className="text-decoration-none text-quaternary university" target="_blank" rel="noopener noreferrer">University College Dublin, Ireland </a>
+                                BSc. (Hons) in Computer Science Graduated from <a href="https://www.ucd.ie/" className="text-decoration-none university" target="_blank" rel="noopener noreferrer">University College Dublin, Ireland </a>
                                     with Second Class Honours of 2.98 GPA.
                             </div>
                         </div>

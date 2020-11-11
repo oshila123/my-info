@@ -26,7 +26,7 @@ const CarouselComponent = () => {
                     <Carousel.Caption>
                         <h3 className="content-overlay-topic mb-2">ReactJS</h3>
                         <p className="content-overlay">collaborate with several commercial ReactJS projects</p>
-                        <p className="content-overlay">Online Airticket booking search engines</p>
+                        <p className="content-overlay">Online Airticket and Hotel booking search engines</p>
                     </Carousel.Caption>
                 </Carousel.Item>
                 <Carousel.Item>
@@ -39,7 +39,7 @@ const CarouselComponent = () => {
                     <Carousel.Caption>
                         <h3 className="content-overlay-topic mb-2">Angular</h3>
                         <p className="content-overlay">collaborate with several commercial Angular projects</p>
-                        <p className="content-overlay">Online Hotel booking search engines</p>
+                        <p className="content-overlay">Online Airticket and Hotel booking search engines</p>
                     </Carousel.Caption>
                 </Carousel.Item>
                 <Carousel.Item>
@@ -50,9 +50,8 @@ const CarouselComponent = () => {
                     />
 
                     <Carousel.Caption>
-                        <h3 className="content-overlay-topic mb-2">Third slide label</h3>
-                        <p className="content-overlay">Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
-                        <p className="content-overlay">Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+                        <h3 className="content-overlay-topic mb-2">Frontend Developer</h3>
+                        <p className="content-overlay">Over 2 years of industrial experince.</p>
                     </Carousel.Caption>
                 </Carousel.Item>
             </Carousel>
