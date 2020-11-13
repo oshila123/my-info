@@ -1,3 +1,4 @@
+@import 'node_modules/bootstrap/scss/bootstrap-grid.scss';
 @import '../../styles/variables';
 
 .footer {
@@ -8,12 +9,16 @@
 
     .sub-footer{
       height: 50px;
-      background-color: #caf0f8;
+      // background-color: #caf0f8;
     }
 
   .main-footer{
     height: 150px;
-    background-color: #90e0ef;
+    // background-color: #90e0ef;
+
+    @include media-breakpoint-down(md) {
+margin-bottom: 30px;
+    }
 
     .footer{
       padding-top: 75px;
