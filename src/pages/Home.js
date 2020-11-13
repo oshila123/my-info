@@ -1,6 +1,7 @@
 import React, { Fragment } from 'react';
 import CarouselComponent from '../components/Carousel/CarouselComponent';
 import About from '../components/About/About';
+import Footer from '../components/Footer/Footer';
 // import Scroll from '../components/Scroll/Scroll';
 import "./Home.scss";
 import Work from '../components/Work/Work';
@@ -19,6 +20,8 @@ const Home = () => {
 
 
             <Work />
+
+            <Footer />
 
         </Fragment>
     )

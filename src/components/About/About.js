@@ -27,7 +27,7 @@ const About = () => {
     return (
         <Fragment>
 
-            <div className="about parallax">
+            <div className="about">
                 <div className="container pt-3 pt-lg-5">
                     <div className="row">
                         <div className="col-12">
@@ -52,6 +52,10 @@ const About = () => {
                                 BSc. (Hons) in Computer Science Graduated from <a href="https://www.ucd.ie/" className="text-decoration-none university" target="_blank" rel="noopener noreferrer">University College Dublin, Ireland </a>
                                     with Second Class Honours of 2.98 GPA.
                             </div>
+
+                            {/* <div>
+                                <a href="https://drive.google.com/drive/folders/1-2XYdL7ERefi3JLHPH5RR5QdwntO7B_E?usp=sharing">Download</a>
+                            </div> */}
                         </div>
                     </div>
                 </div>
