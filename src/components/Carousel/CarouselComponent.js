@@ -25,7 +25,7 @@ const CarouselComponent = () => {
                     />
                     <Carousel.Caption>
                         <h3 className="content-overlay-topic mb-2">ReactJS</h3>
-                        <p className="content-overlay">collaborate with several commercial ReactJS projects</p>
+                        <p className="content-overlay">Collaborate with several commercial ReactJS projects</p>
                         <p className="content-overlay">Online Airticket and Hotel booking search engines</p>
                     </Carousel.Caption>
                 </Carousel.Item>
@@ -38,7 +38,7 @@ const CarouselComponent = () => {
 
                     <Carousel.Caption>
                         <h3 className="content-overlay-topic mb-2">Angular</h3>
-                        <p className="content-overlay">collaborate with several commercial Angular projects</p>
+                        <p className="content-overlay">Collaborate with several commercial Angular projects</p>
                         <p className="content-overlay">Online Airticket and Hotel booking search engines</p>
                     </Carousel.Caption>
                 </Carousel.Item>

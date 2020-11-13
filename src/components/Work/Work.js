@@ -19,10 +19,10 @@ const Work = () => {
                                 </div>
                                 <div className="col-12 col-lg-8">
                                     <ul>
-                                        <li>involing with online booking engines like Flight booking and Hotel booking web applications.</li>
-                                        <li>Responsible in doing UI developments mostly. Both scratch to final production as well UI modifications.</li>
-                                        <li>Implimenting Paymentgateways to those sites</li>
-                                        <li>Wordpress plugin</li>
+                                        <li>involving with online booking engines like Flight booking and Hotel booking web applications.</li>
+                                        <li>Responsible in doing UI developments mostly. Both UI scratch to final production as well UI modifications.</li>
+                                        <li>Implementing payment gateways  to those sites</li>
+                                        <li>WordPress plugin</li>
                                         <li>Technologies using
                                             <ul>
                                                 <li>JavaScript</li>
@@ -37,7 +37,7 @@ const Work = () => {
                                                 <li>HTML5</li>
                                             </ul>
                                         </li>
-                                        <li>over 90% projects which I have involved were based on forign client's such as England, Australia, Netherland etc...</li>
+                                        <li>over 90% projects which I have involved were based on foreign client's such as England, Australia, Netherlands etc...</li>
                                         <li>B2C and B2B development</li>
                                     </ul>
                                 </div>
@@ -52,9 +52,9 @@ const Work = () => {
                                 </div>
                                 <div className="col-12 col-lg-8">
                                     <ul>
-                                        <li>I have touch with every customer based websites of Lanka Bell including their main website and done the requested UI changers.</li>
-                                        <li>Maintain and update the site</li>
-                                        <li>Rebuild the entire Intranet site which is the Lanka Bell staff internal web site</li>
+                                        <li>I have touched with every customer based websites of Lanka Bell including their main website and done the requested UI changes.</li>
+                                        <li>Maintain and update the websites</li>
+                                        <li>Rebuild the entire Intranet site which is the Lanka Bell staff internal website</li>
                                     </ul>
                                 </div>
                             </div>

@@ -44,9 +44,9 @@ const About = () => {
                             <Clock value={value} /> */}
 
                             <div className="text-justify">
-                                I am Oshila Gunerathne, {year} years old. Have over 2years of software developemt experince. Currently working on a software company called
+                                I am Oshila Gunerathne, {year} years old. Over 2 years of software development experience. Currently working on a software company called
                                     <a href="https://www.oganro.com/" className="text-decoration-none university" target="_blank" rel="noopener noreferrer"> Oganro Limited </a>
-                                as a UI Developer. I am involving in developing, implementing Online booking engines such as flight booking and hotel booking and several other projects. mostly with forign client projects.
+                                as a UI Developer. I am involving in developing, implementing Online booking engines such as flight booking and hotel booking and several other projects. Mostly with foreign client projects.
                             </div>
                             <div className="mt-3">
                                 BSc. (Hons) in Computer Science Graduated from <a href="https://www.ucd.ie/" className="text-decoration-none university" target="_blank" rel="noopener noreferrer">University College Dublin, Ireland </a>
