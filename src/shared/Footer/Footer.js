@@ -24,7 +24,7 @@ const Footer = () => {
                             <h4 >Oshila Gunerathne. <Year /> </h4>
                         </div>
                         <div className="col-sm-12 col-md-4">
-                            <h4>
+                            <h4 className="float-md-right">
                                 <a href="https://www.linkedin.com/in/oshila123" className="text-decoration-none" target="_blank" rel="noopener noreferrer"> <i className="fa fa-linkedin-square mr-2" aria-hidden="true"></i></a>
                                 {/* <i className="fa fa-linkedin " aria-hidden="true"></i> */}
                                 {/* <i className="fa fa-twitter " aria-hidden="true"></i> */}
