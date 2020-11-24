@@ -27,8 +27,8 @@ const About = () => {
     return (
         <Fragment>
 
-            <div className="about">
-                <div className="container pt-3 pt-lg-5">
+            <div className="about parallax">
+                <div className="container  pt-5 pb-5">
                     <div className="row">
                         <div className="col-12">
                             <h4>About Me </h4>

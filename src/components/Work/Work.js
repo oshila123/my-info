@@ -4,7 +4,7 @@ import './Work.scss';
 const Work = () => {
     return (
         <div className="experience">
-            <div className="container pt-3 pt-lg-5">
+            <div className="container pt-5 pb-5">
                 <div className="row">
                     <div className="col-12">
                         <h4>Working Experience</h4>
@@ -49,7 +49,7 @@ const Work = () => {
                         <div className="company mt-5 mb-5">
                             <div className="row">
                                 <div className="col-12 col-lg-4">
-                                    <h3> <a href="https://www.lankabell.com/" className="text-decoration-none university" target="_blank" rel="noopener noreferrer">Lanka bell Ltd </a></h3>
+                                    <h3> <a href="https://www.lankabell.com/" className="text-decoration-none university" target="_blank" rel="noopener noreferrer">Lanka bell Limited </a></h3>
                                     <h4>web designer</h4>
                                     <p>October 2018 – July 2019</p>
                                 </div>
@@ -78,7 +78,7 @@ const Work = () => {
                         <div className="company mt-5 mb-5">
                             <div className="row">
                                 <div className="col-12 col-lg-4">
-                                    <h3> <a href="https://www.twcinnovations.com/" className="text-decoration-none university" target="_blank" rel="noopener noreferrer">TWC Innovations (Pvt) Ltd </a></h3>
+                                    <h3> <a href="https://www.twcinnovations.com/" className="text-decoration-none university" target="_blank" rel="noopener noreferrer">TWC Innovations Limited </a></h3>
                                     <div className="h4">software engineer</div>
                                     <div className="h5 text-uppercase" >( internship )</div>
                                     <p>December 2017 – July 2018</p>
