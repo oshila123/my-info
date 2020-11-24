@@ -3,8 +3,8 @@ import './Technology.scss';
 
 const Technology = () => {
     return (
-        <div className="container ">
-            <div className="pt-5">
+        <div className="technology mt-5 pb-5">
+            <div className="container">
                 <h4>Technologies, Frameworks and Libraries familier with</h4>
                 <ul className="row">
                     <li className="col-12 col-md-6">ReactJS</li>

@@ -8,6 +8,7 @@ import Technology from '../components/Technology/Technology';
 import "./Home.scss";
 import { useEffect } from 'react';
 import { useState } from 'react';
+import Projects from '../components/Projects/Projects';
 
 const Home = () => {
 
@@ -31,9 +32,12 @@ const Home = () => {
 
                         <Technology />
 
+                        <Projects />
+
                         <Work />
 
                         <Footer />
+
                     </Fragment>
             }
         </Fragment>
