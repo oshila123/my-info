@@ -38,8 +38,21 @@ const Projects = () => {
                                         </li>
                                         <li>Issues I found
                                             <ul>
-                                                <li>Heroku app crushes without any perticular reason. Which is not because of the app failure.</li>
-                                                <li>TMDB api issues like images. ( If the images doesn't appear, it's because of that). In such case, please refresh the site to load the images</li>
+                                                <li>As I am using Heroku free version, they are idling the web app after a certain time frame if it's not in using. In such case there are two incidents can happen.
+                                                    <ol>
+                                                        <li>
+                                                            Gives an error says site is not available or similar error.
+                                                        </li>
+                                                        <li>
+                                                            Please view the Heroku error log.
+                                                        </li>
+                                                    </ol>
+
+                                                    But neither is true. This happens only because I am using Heroku free version.
+                                                    In such case, you just have to refresh the page until Heroku starts the app again.
+                                                </li>
+
+                                                <li>TMDB api issues like image loading. ( If the images doesn't appear, it's because of that). In such case, please refresh the site to load the images</li>
                                             </ul>
                                         </li>
                                     </ul>
