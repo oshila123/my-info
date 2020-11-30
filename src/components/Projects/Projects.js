@@ -49,7 +49,7 @@ const Projects = () => {
                                                     </ol>
 
                                                     But neither is true. This happens only because I am using Heroku free version.
-                                                    In such case, you just have to refresh the page until Heroku starts the app again.
+                                                   <div className="text-danger"> In such case, you just have to refresh the page until Heroku starts the app again.</div>
                                                 </li>
 
                                                 <li>TMDB api issues like image loading. ( If the images doesn't appear, it's because of that). In such case, please refresh the site to load the images</li>
