@@ -14,18 +14,51 @@ const Work = () => {
                         <div className="company mt-5 mb-5">
                             <div className="row">
                                 <div className="col-12 col-lg-4">
-                                    <h3> <a href="https://www.oganro.com/" className="text-decoration-none university" target="_blank" rel="noopener noreferrer">Oganro Limited </a></h3>
-                                    <h4> UI DEVELOPER</h4>
-                                    <p >January 2020 - present</p>
+                                    <h3> <a href="https://eightdigitz.com" className="text-decoration-none university" target="_blank" rel="noopener noreferrer">Media Box (Pvt) Ltd (Eight Digitz) </a></h3>
+                                    <h4> Frontend Developer</h4>
+                                    <p >December 2020 - present</p>
                                 </div>
                                 <div className="col-12 col-lg-8">
                                     <ul>
-                                        <li>involving with online booking engines like Flight booking and Hotel booking web applications.</li>
+                                        <li>The main task is to create high standard web applications using NextJS and ReactJS.
+                                             <span className="text-danger"> (unavailable to mention the products because of the agreement I have signed with them)</span>.
+                                        </li>
+                                        <li >Technologies using
+                                            <ul className="column-count">
+                                                <li>JavaScript</li>
+                                                <li>ReactJS</li>
+                                                <li>GIT</li>
+                                                <li>Bootstrap</li>
+                                                <li>CSS</li>
+                                                <li>SCSS</li>
+                                                <li>NextJS</li>
+                                                <li>Platformer</li>
+                                                <li>REST API</li>
+                                                <li>JIRA</li>
+                                                <li>HTML5</li>
+                                                <li>JQuery</li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div className="company mt-5 mb-5">
+                            <div className="row">
+                                <div className="col-12 col-lg-4">
+                                    <h3> <a href="https://www.oganro.com/" className="text-decoration-none university" target="_blank" rel="noopener noreferrer">Oganro (Pvt) Ltd </a></h3>
+                                    <h4> UI DEVELOPER</h4>
+                                    <p>January 2020 - December 2020</p>
+                                </div>
+                                <div className="col-12 col-lg-8">
+                                    <ul>
+                                        <li>involved with online booking engines like Flight booking and Hotel booking web applications.</li>
                                         <li>Responsible in doing UI developments mostly. Both UI scratch to final production as well UI modifications.</li>
                                         <li>Implementing payment gateways  to those sites</li>
-                                        <li>WordPress plugin</li>
-                                        <li>Technologies using
-                                            <ul>
+                                        <li>over 90% projects which I have involved were based on foreign client's such as England, Australia, Netherlands etc...</li>
+                                        <li>Technologies used
+                                            <ul className="column-count">
                                                 <li>JavaScript</li>
                                                 <li>ReactJS</li>
                                                 <li>Angular</li>
@@ -39,8 +72,8 @@ const Work = () => {
                                                 <li>JQuery</li>
                                             </ul>
                                         </li>
-                                        <li>over 90% projects which I have involved were based on foreign client's such as England, Australia, Netherlands etc...</li>
                                         <li>B2C and B2B development</li>
+                                        <li>WordPress plugin</li>
                                     </ul>
                                 </div>
                             </div>
