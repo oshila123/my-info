@@ -1,6 +1,6 @@
 export const profileData = {
   name: 'Oshila Ishitha Gunerathne',
-  role: 'Senior Frontend Engineer / Team Lead',
+  role: 'Senior Frontend Engineer & Frontend Lead',
   location: 'Horana, Sri Lanka',
   education: {
     degree: 'BSc (Hons) in Computer Science',
@@ -9,6 +9,10 @@ export const profileData = {
   },
   summary:
     'Senior Frontend Engineer with 6+ years of experience architecting scalable web applications, monorepos, and cross-platform mobile solutions. Specialized in React, Angular, React Native, Next.js, Astro, and enterprise identity integrations.',
+  contact: {
+    linkedin: 'https://www.linkedin.com/in/oshila123/',
+    email: 'oshila.it@gmail.com',
+  },
   highlights: [
     'Frontend Monorepo Architecture (Astro + Angular / NgRx)',
     'Cross-Platform Mobile Transformation (Angular Web to React Native)',
@@ -20,7 +24,7 @@ export const profileData = {
 export const workExperience = [
   {
     id: 1,
-    role: 'Frontend Developer / Team Lead',
+    role: 'Frontend Developer & Frontend Lead',
     company: 'RightStakes (Aposta1)',
     location: 'Europe (Remote)',
     period: '2023 – Present',
@@ -119,6 +123,15 @@ export const featuredProjects = [
     summary:
       'Containerized Angular frontend localization for BYJU’s B2B educational rollout alongside modular ERP dashboards.',
     tech: ['Angular', 'Docker', 'Figma', 'TypeScript'],
+  },
+  {
+    id: 'oshila-movie-demo',
+    title: 'Oshila Movie Explorer (Demo Self Project)',
+    category: 'Personal Project',
+    summary:
+      'Interactive movie discovery and browsing web application hosted on Firebase, showcasing responsive UI design and modern frontend architecture.',
+    tech: ['React', 'JavaScript', 'Firebase Hosting', 'SCSS'],
+    demoUrl: 'https://oshila-movie.web.app/',
   },
 ];
 

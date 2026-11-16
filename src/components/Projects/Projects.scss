@@ -21,11 +21,29 @@
       border-color: rgba(56, 189, 248, 0.4);
     }
 
+    .card-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 0.5rem;
+      margin-bottom: 0.4rem;
+    }
+
     .category {
       font-size: 0.78rem;
       color: $accent-secondary;
       font-weight: 600;
-      margin-bottom: 0.4rem;
+    }
+
+    .demo-link {
+      font-size: 0.78rem;
+      font-weight: 600;
+      color: $accent-primary;
+      transition: $transition;
+
+      &:hover {
+        text-decoration: underline;
+      }
     }
 
     h3 {

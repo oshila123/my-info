@@ -9,13 +9,25 @@ const Projects = () => {
       <div className="container">
         <h2 className="section-title">Featured Architecture & Projects</h2>
         <p className="section-subtitle">
-          Key production migrations, mobile transformations, and enterprise systems.
+          Key production migrations, mobile transformations, and self projects.
         </p>
         <Carousel />
         <div className="projects-grid">
           {featuredProjects.map((project) => (
             <article key={project.id} className="project-card">
-              <span className="category">{project.category}</span>
+              <div className="card-header">
+                <span className="category">{project.category}</span>
+                {project.demoUrl && (
+                  <a
+                    href={project.demoUrl}
+                    target="_blank"
+                    rel="noreferrer"
+                    className="demo-link"
+                  >
+                    Live Demo ↗
+                  </a>
+                )}
+              </div>
               <h3>{project.title}</h3>
               <p>{project.summary}</p>
               <div className="tags">

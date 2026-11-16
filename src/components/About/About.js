@@ -12,8 +12,20 @@ const About = () => {
           <h2>{profileData.role}</h2>
           <p className="summary">{profileData.summary}</p>
           <div className="cta-group">
-            <a href="#work" className="btn-primary">View Experience</a>
-            <a href="#projects" className="btn-secondary">Featured Architecture</a>
+            <a
+              href={profileData.contact.linkedin}
+              target="_blank"
+              rel="noreferrer"
+              className="btn-primary"
+            >
+              LinkedIn
+            </a>
+            <a
+              href={`mailto:${profileData.contact.email}`}
+              className="btn-secondary"
+            >
+              {profileData.contact.email}
+            </a>
           </div>
         </div>
         <div className="about-card">

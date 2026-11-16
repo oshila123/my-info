@@ -18,7 +18,19 @@ const Carousel = () => {
   return (
     <div className="project-carousel">
       <div className="carousel-card">
-        <span className="badge">{current.category}</span>
+        <div className="carousel-top">
+          <span className="badge">{current.category}</span>
+          {current.demoUrl && (
+            <a
+              href={current.demoUrl}
+              target="_blank"
+              rel="noreferrer"
+              className="demo-link"
+            >
+              Live Demo ↗
+            </a>
+          )}
+        </div>
         <h3>{current.title}</h3>
         <p>{current.summary}</p>
         <div className="tech-tags">
