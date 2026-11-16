@@ -1,18 +1,23 @@
-@import 'node_modules/bootstrap/scss/bootstrap-grid.scss';
+@import '../../styles/variables';
 
-.fullscreen {
-    height: 100vh;
-    position: relative;
+.scroll-top-btn {
+  position: fixed;
+  bottom: 1.75rem;
+  right: 1.75rem;
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  background: $accent-primary;
+  color: $bg-primary;
+  border: none;
+  font-size: 1.2rem;
+  font-weight: 700;
+  cursor: pointer;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.35);
+  transition: $transition;
+  z-index: 90;
 
-    .image{
-        position: absolute;
-        bottom: 75px;
-        left: 15%;
-    }
-    .text{
-        position: absolute;
-        bottom: 75px;
-        left: 15%;
-    }
+  &:hover {
+    transform: translateY(-3px);
+  }
 }
-

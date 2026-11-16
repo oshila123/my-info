@@ -1,0 +1,36 @@
+@import '../../styles/variables';
+
+.tech-section {
+  .tech-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    gap: 1.25rem;
+  }
+
+  .tech-card {
+    background: $bg-card;
+    border: 1px solid $border-color;
+    border-radius: $radius-md;
+    padding: 1.5rem;
+
+    h3 {
+      font-size: 1.05rem;
+      color: $accent-primary;
+      margin-bottom: 1rem;
+    }
+
+    .pill-list {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.5rem;
+    }
+
+    .skill-pill {
+      background: $bg-secondary;
+      border: 1px solid $border-color;
+      padding: 0.35rem 0.75rem;
+      border-radius: 6px;
+      font-size: 0.88rem;
+    }
+  }
+}

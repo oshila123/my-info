@@ -1,6 +1,131 @@
-.parallax{
-    background-image: url('../../assets/img/para-1.jpg');
-}
-.about{
-    min-height: 250px;
+@import '../../styles/variables';
+
+.about-section {
+  padding-top: 4rem;
+
+  .about-grid {
+    display: grid;
+    grid-template-columns: 1.3fr 1fr;
+    gap: 2.5rem;
+    align-items: center;
+  }
+
+  .eyebrow {
+    display: inline-block;
+    color: $accent-primary;
+    font-size: 0.85rem;
+    font-weight: 600;
+    margin-bottom: 0.75rem;
+  }
+
+  h1 {
+    font-size: clamp(2.1rem, 4vw, 3.1rem);
+    line-height: 1.15;
+    font-weight: 800;
+    margin-bottom: 0.5rem;
+  }
+
+  h2 {
+    font-size: 1.3rem;
+    font-weight: 500;
+    color: $accent-secondary;
+    margin-bottom: 1.25rem;
+  }
+
+  .summary {
+    color: $text-secondary;
+    font-size: 1.05rem;
+    margin-bottom: 2rem;
+  }
+
+  .cta-group {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+
+    a {
+      padding: 0.75rem 1.4rem;
+      border-radius: 8px;
+      font-weight: 600;
+      font-size: 0.95rem;
+      transition: $transition;
+    }
+
+    .btn-primary {
+      background: $accent-primary;
+      color: $bg-primary;
+
+      &:hover {
+        opacity: 0.9;
+        transform: translateY(-2px);
+      }
+    }
+
+    .btn-secondary {
+      background: $bg-secondary;
+      border: 1px solid $border-color;
+
+      &:hover {
+        border-color: $accent-primary;
+      }
+    }
+  }
+
+  .about-card {
+    background: $bg-card;
+    border: 1px solid $border-color;
+    border-radius: $radius-lg;
+    padding: 1.75rem;
+
+    h3 {
+      font-size: 1.1rem;
+      margin-bottom: 1rem;
+      color: $accent-primary;
+    }
+
+    ul {
+      list-style: none;
+      margin-bottom: 1.5rem;
+
+      li {
+        position: relative;
+        padding-left: 1.25rem;
+        margin-bottom: 0.65rem;
+        font-size: 0.93rem;
+        color: $text-secondary;
+
+        &::before {
+          content: '▹';
+          position: absolute;
+          left: 0;
+          color: $accent-primary;
+        }
+      }
+    }
+
+    .edu-box {
+      padding-top: 1.25rem;
+      border-top: 1px solid $border-color;
+      display: flex;
+      flex-direction: column;
+      gap: 0.2rem;
+
+      .edu-label {
+        font-size: 0.75rem;
+        text-transform: uppercase;
+        letter-spacing: 0.08em;
+        color: $accent-secondary;
+      }
+
+      p, small {
+        color: $text-secondary;
+      }
+    }
+  }
+
+  @media (max-width: 860px) {
+    .about-grid {
+      grid-template-columns: 1fr;
+    }
+  }
 }

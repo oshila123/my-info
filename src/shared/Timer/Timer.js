@@ -1,28 +1,26 @@
-import React from 'react';
-import * as moment from 'moment';
+import React, { useState, useEffect } from 'react';
+import './Timer.scss';
 
-class Timer extends React.Component {
-    constructor(props) {
-        super(props);
-        this.state = {
-            // time: new Date().toLocaleString()
-            time: moment().format("dddd, MMMM Do YYYY, h:mm:ss a")
-        };
-    }
-    componentDidMount() {
-        this.intervalID = setInterval(() => this.tick(), 1000);
-    }
-    componentWillUnmount() {
-        clearInterval(this.intervalID);
-    }
-    tick() {
-        this.setState({
-            time: moment().format("dddd, MMMM Do YYYY, h:mm:ss a")
-        });
-    }
-    render() {
-        return <small> {this.state.time}.</small>;
-    }
-}
+const Timer = () => {
+  const [time, setTime] = useState(new Date());
+
+  useEffect(() => {
+    const interval = setInterval(() => setTime(new Date()), 1000);
+    return () => clearInterval(interval);
+  }, []);
+
+  const slTime = time.toLocaleTimeString('en-US', {
+    timeZone: 'Asia/Colombo',
+    hour: '2-digit',
+    minute: '2-digit',
+  });
+
+  return (
+    <div className="local-timer" title="Local Time in Sri Lanka (IST)">
+      <span className="status-dot"></span>
+      <span>LK {slTime}</span>
+    </div>
+  );
+};
 
 export default Timer;

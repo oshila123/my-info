@@ -1,47 +1,27 @@
-import React, { Fragment } from 'react';
-import CarouselComponent from '../components/Carousel/CarouselComponent';
+import React from 'react';
+import './Home.scss';
+import Header from '../shared/Header/Header';
+import Footer from '../shared/Footer/Footer';
 import About from '../components/About/About';
 import Work from '../components/Work/Work';
-import Footer from '../shared/Footer/Footer';
-import Loader from '../shared/Loader/Loader';
-import Technology from '../components/Technology/Technology';
-import "./Home.scss";
-import { useEffect } from 'react';
-import { useState } from 'react';
 import Projects from '../components/Projects/Projects';
+import Technology from '../components/Technology/Technology';
+import Scroll from '../components/Scroll/Scroll';
 
 const Home = () => {
+  return (
+    <div className="home-page">
+      <Header />
+      <main>
+        <About />
+        <Work />
+        <Projects />
+        <Technology />
+      </main>
+      <Scroll />
+      <Footer />
+    </div>
+  );
+};
 
-    const [loading, SetLoading] = useState(true)
-
-    useEffect(() => {
-        SetLoading(false)
-    }, [])
-
-    return (
-        <Fragment >
-            {
-                loading
-                    ?
-                    <Loader />
-                    :
-                    <Fragment >
-                        <CarouselComponent />
-
-                        <About />
-
-                        <Technology />
-
-                        <Projects />
-
-                        <Work />
-
-                        <Footer />
-
-                    </Fragment>
-            }
-        </Fragment>
-    )
-}
-
-export default Home
+export default Home;

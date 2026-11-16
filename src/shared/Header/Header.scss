@@ -1,3 +1,50 @@
-header{
-    background-color: transparent !important;
+@import '../../styles/variables';
+
+.site-header {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  background: rgba(15, 23, 42, 0.88);
+  backdrop-filter: blur(12px);
+  border-bottom: 1px solid $border-color;
+
+  .header-inner {
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+  }
+
+  .brand {
+    font-size: 1.35rem;
+    font-weight: 800;
+    letter-spacing: -0.5px;
+
+    span {
+      color: $accent-primary;
+    }
+  }
+
+  .nav-links {
+    display: flex;
+    gap: 1.75rem;
+
+    a {
+      color: $text-secondary;
+      font-size: 0.95rem;
+      font-weight: 500;
+      transition: $transition;
+
+      &:hover {
+        color: $accent-primary;
+      }
+    }
+  }
+
+  @media (max-width: 680px) {
+    .nav-links {
+      display: none;
+    }
+  }
 }

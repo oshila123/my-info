@@ -1,5 +1,57 @@
-.company {
-        padding: 20px;
-        box-shadow: 0px 12px 30px 0px rgba(0, 0, 0, 0.2);
-        transition: all 800ms cubic-bezier(0.19, 1, 0.22, 1);
+@import '../../styles/variables';
+
+.projects-section {
+  .projects-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 1.5rem;
+  }
+
+  .project-card {
+    background: $bg-card;
+    border: 1px solid $border-color;
+    border-radius: $radius-md;
+    padding: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    transition: $transition;
+
+    &:hover {
+      transform: translateY(-4px);
+      border-color: rgba(56, 189, 248, 0.4);
     }
+
+    .category {
+      font-size: 0.78rem;
+      color: $accent-secondary;
+      font-weight: 600;
+      margin-bottom: 0.4rem;
+    }
+
+    h3 {
+      font-size: 1.15rem;
+      margin-bottom: 0.65rem;
+    }
+
+    p {
+      color: $text-secondary;
+      font-size: 0.92rem;
+      margin-bottom: 1.25rem;
+      flex: 1;
+    }
+
+    .tags {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.45rem;
+
+      span {
+        font-size: 0.76rem;
+        color: $accent-primary;
+        background: rgba(56, 189, 248, 0.1);
+        padding: 0.2rem 0.55rem;
+        border-radius: 4px;
+      }
+    }
+  }
+}

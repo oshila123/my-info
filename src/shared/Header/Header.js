@@ -1,30 +1,24 @@
 import React from 'react';
-import { Navbar, Nav, NavDropdown } from 'react-bootstrap';
 import './Header.scss';
+import Timer from '../Timer/Timer';
 
 const Header = () => {
-    return (
-        <header>
-            <div className="container">
-                <Navbar  >
-                    <Navbar.Brand href="#home">Oshila Gunerathne</Navbar.Brand>
-                    {/* <Navbar.Collapse id="basic-navbar-nav">
-                        <Nav className="mr-auto">
-                            <Nav.Link href="#home">Home</Nav.Link>
-                            <Nav.Link href="#link">Link</Nav.Link>
-                            <NavDropdown title="Dropdown" id="basic-nav-dropdown">
-                                <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
-                                <NavDropdown.Item href="#action/3.2">Another action</NavDropdown.Item>
-                                <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
-                                <NavDropdown.Divider />
-                                <NavDropdown.Item href="#action/3.4">Separated link</NavDropdown.Item>
-                            </NavDropdown>
-                        </Nav>
-                    </Navbar.Collapse> */}
-                </Navbar>
-            </div>
-        </header>
-    )
-}
+  return (
+    <header className="site-header">
+      <div className="container header-inner">
+        <a href="#about" className="brand">
+          Oshila<span>.dev</span>
+        </a>
+        <nav className="nav-links">
+          <a href="#about">About</a>
+          <a href="#work">Experience</a>
+          <a href="#projects">Projects</a>
+          <a href="#technology">Stack</a>
+        </nav>
+        <Timer />
+      </div>
+    </header>
+  );
+};
 
-export default Header
+export default Header;

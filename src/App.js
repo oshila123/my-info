@@ -1,15 +1,24 @@
-import React, { Fragment } from 'react';
+import React, { useState, useEffect } from 'react';
+import './App.css';
 import Home from './pages/Home';
-// import Header from './components/Header/Header';
-// import Footer from './components/Footer/Footer';
+import Loader from './shared/Loader/Loader';
 
 function App() {
+  const [loading, setLoading] = useState(true);
+
+  useEffect(() => {
+    const timer = setTimeout(() => setLoading(false), 600);
+    return () => clearTimeout(timer);
+  }, []);
+
+  if (loading) {
+    return <Loader />;
+  }
+
   return (
-    <Fragment>
-      {/* <Header /> */}
+    <div className="App">
       <Home />
-      {/* <Footer /> */}
-    </Fragment>
+    </div>
   );
 }
 
