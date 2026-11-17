@@ -1,9 +1,11 @@
 # Oshila Ishitha Gunerathne — Personal Portfolio (`my-info`)
 
-Modern React + SCSS personal portfolio showcasing frontend architecture, cross-platform mobile engineering, and career milestones.
+Modern React + Vite + SCSS personal portfolio showcasing frontend architecture, cross-platform mobile engineering, and career milestones.
 
 ## Structure
-- `public/` — Static assets & `index.html`
+- `index.html` — Vite entry HTML
+- `vite.config.js` — Vite configuration (`base: '/my-info/'`)
+- `public/` — Static assets (`manifest.json`)
 - `src/components/` — Modular sections (`About`, `Carousel`, `Projects`, `Scroll`, `Technology`, `Work`)
 - `src/pages/` — Main `Home` view
 - `src/shared/` — Reusable UI (`Header`, `Footer`, `Loader`, `Timer`)
@@ -13,6 +15,9 @@ Modern React + SCSS personal portfolio showcasing frontend architecture, cross-p
 ```bash
 npm install
 npm run dev
-# or
-npm start
+```
+
+## Deploy to GitHub Pages
+```bash
+npm run deploy
 ```
