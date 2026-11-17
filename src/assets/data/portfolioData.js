@@ -8,7 +8,7 @@ export const profileData = {
     graduated: 'December 2017 (Second Class Honors)',
   },
   summary:
-    'Senior Frontend Engineer with 6+ years of experience architecting scalable web applications, monorepos, and cross-platform mobile solutions. Specialized in React, Angular, React Native, Next.js, Astro, and enterprise identity integrations.',
+    'Senior Frontend Engineer with 6+ years of experience architecting scalable web applications, monorepos, and cross-platform mobile solutions. Specialized in React, Angular, React Native, Next.js, Astro, Cloudflare Edge Functions, and enterprise identity integrations.',
   contact: {
     linkedin: 'https://www.linkedin.com/in/oshila123/',
     email: 'oshila.it@gmail.com',
@@ -17,8 +17,8 @@ export const profileData = {
     'Engineered an ultra-fast React casino hub featuring SSR/pre-rendering for instant load times, dynamic SEO optimization, and seamless user authentication.',
     'Frontend Monorepo Architecture (Astro + Angular / NgRx)',
     'Cross-Platform Mobile Transformation (Angular Web to React Native)',
-    'Enterprise Authentication & SSO (Keycloak & Azure B2C)',
-    'High-Performance Sportsbook & Entertainment Platforms',
+    'Zero-Buffer Edge AI Streaming & Local-First IndexedDB Architectures (Cloudflare Pages + Gemini SSE)',
+    'High-Density Data Virtualization & Enterprise SSO (Keycloak & Azure B2C)',
   ],
 };
 
@@ -134,6 +134,33 @@ export const featuredProjects = [
     tech: ['Angular', 'Docker', 'Figma', 'TypeScript'],
   },
   {
+    id: 'docstream-ai',
+    title: 'DocStream AI — Edge Streaming & Document Workspace',
+    category: 'AI & Edge Architecture',
+    summary:
+      'Real-time LLM token streaming and collaborative Markdown workspace powered by a zero-buffer Cloudflare Pages SSE proxy, upstream AbortController cancellation, dual-layer rate limiting, and local-first IndexedDB persistence.',
+    tech: ['React 18', 'TypeScript', 'Cloudflare Pages Functions', 'SSE / ReadableStream', 'Dexie (IndexedDB)', 'Zustand', 'Tailwind CSS v4'],
+    demoUrl: 'https://ai-doc-workspace.pages.dev/',
+  },
+  {
+    id: 'finpulse-analytics',
+    title: 'FinPulse — Interactive SaaS & Finance Analytics Dashboard',
+    category: 'High-Density Data Engineering',
+    summary:
+      'Zero-backend SaaS & finance analytics dashboard engineered for sub-60fps client-side performance across 5,000+ virtualized rows, deterministic seeded state, URL-synced deep-link filters, and integer-cent financial math.',
+    tech: ['React', 'TypeScript', 'TanStack Table', 'TanStack Virtual', 'nuqs', 'Cloudflare Workers'],
+    demoUrl: 'https://finpulse-analytics.oshila123.workers.dev/',
+  },
+  {
+    id: 'novacart-storefront',
+    title: 'NovaCart — E-Commerce Storefront & Checkout Wizard',
+    category: 'Frontend Architecture',
+    summary:
+      'E-commerce storefront featuring Zod-validated URL-synced catalog filters, optimistic persisted inventory tracking, a 3-step Luhn-validated checkout wizard, and Firebase Firestore persistence with localStorage fallback.',
+    tech: ['React 19', 'TypeScript', 'TanStack Query', 'Zustand', 'React Hook Form', 'Zod', 'Firebase Firestore', 'Tailwind CSS v4'],
+    demoUrl: 'https://storefront-demo.oshila123.workers.dev/',
+  },
+  {
     id: 'oshila-movie-demo',
     title: 'Oshila Movie Explorer (Demo Self Project)',
     category: 'Personal Project',
@@ -146,19 +173,19 @@ export const featuredProjects = [
 
 export const techCategories = [
   {
-    title: 'Core Languages',
-    items: ['JavaScript (ES6+)', 'TypeScript', 'HTML5', 'CSS3 / SCSS'],
+    title: 'Core Languages & Styling',
+    items: ['JavaScript (ES6+)', 'TypeScript', 'HTML5', 'CSS3 / SCSS', 'Tailwind CSS'],
   },
   {
     title: 'Frontend Frameworks',
     items: ['React', 'Angular', 'Next.js', 'Astro'],
   },
   {
-    title: 'Mobile & State',
-    items: ['React Native', 'Redux', 'NgRx', 'RxJS'],
+    title: 'Mobile, State & Data',
+    items: ['React Native', 'Zustand', 'Redux', 'NgRx', 'RxJS', 'TanStack Query / Table', 'IndexedDB (Dexie)', 'Zod'],
   },
   {
-    title: 'Auth, DevOps & Observability',
-    items: ['Keycloak', 'Azure B2C', 'Docker', 'DataDog', 'Git'],
+    title: 'Edge, Auth & DevOps',
+    items: ['Cloudflare Workers / Pages', 'Keycloak', 'Azure B2C', 'Firebase', 'Docker', 'DataDog', 'Git'],
   },
 ];
