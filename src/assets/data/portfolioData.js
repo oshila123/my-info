@@ -14,6 +14,7 @@ export const profileData = {
     email: 'oshila.it@gmail.com',
   },
   highlights: [
+    'Engineered an ultra-fast React casino hub featuring SSR/pre-rendering for instant load times, dynamic SEO optimization, and seamless user authentication.',
     'Frontend Monorepo Architecture (Astro + Angular / NgRx)',
     'Cross-Platform Mobile Transformation (Angular Web to React Native)',
     'Enterprise Authentication & SSO (Keycloak & Azure B2C)',
@@ -92,6 +93,14 @@ export const workExperience = [
 ];
 
 export const featuredProjects = [
+  {
+    id: 'react-repo',
+    title: 'High-Speed iGaming & Casino Platform',
+    category: 'Full-Stack Frontend (Web Architecture)',
+    summary:
+      'Engineered an ultra-fast React casino hub featuring SSR/pre-rendering for instant load times, dynamic SEO optimization, and seamless user authentication.',
+    tech: ['React', 'TypeScript', 'SEO', 'Auth', 'TailwindCSS', 'SCSS', 'REST/WebSockets'],
+  },
   {
     id: 'monorepo-migration',
     title: 'Hybrid Astro + Angular Monorepo',
