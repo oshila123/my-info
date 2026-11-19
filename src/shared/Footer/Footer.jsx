@@ -11,6 +11,9 @@ const Footer = () => {
           <a href={profileData.contact.linkedin} target="_blank" rel="noreferrer">
             LinkedIn
           </a>
+          <a href={profileData.contact.cvUrl} target="_blank" rel="noreferrer">
+            CV
+          </a>
           <a href={`mailto:${profileData.contact.email}`}>
             {profileData.contact.email}
           </a>

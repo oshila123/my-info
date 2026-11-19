@@ -8,10 +8,11 @@ export const profileData = {
     graduated: 'December 2017 (Second Class Honors)',
   },
   summary:
-    'Senior Frontend Engineer with 6+ years of experience architecting scalable web applications, monorepos, and cross-platform mobile solutions. Specialized in React, Angular, React Native, Next.js, Astro, Cloudflare Edge Functions, and enterprise identity integrations.',
+    'Senior Frontend Engineer with 7+ years of experience architecting scalable web applications, monorepos, and cross-platform mobile solutions. Specialized in React, Angular, React Native, Next.js, Astro, Cloudflare Edge Functions, and enterprise identity integrations.',
   contact: {
     linkedin: 'https://www.linkedin.com/in/oshila123/',
     email: 'oshila.it@gmail.com',
+    cvUrl: 'https://drive.google.com/file/d/17BPrelI2LXO0Tt2zJAQONo_br3fTWEVQ/view?usp=sharing',
   },
   highlights: [
     'Engineered an ultra-fast React casino hub featuring SSR/pre-rendering for instant load times, dynamic SEO optimization, and seamless user authentication.',

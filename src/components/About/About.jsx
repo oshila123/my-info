@@ -21,6 +21,14 @@ const About = () => {
               LinkedIn
             </a>
             <a
+              href={profileData.contact.cvUrl}
+              target="_blank"
+              rel="noreferrer"
+              className="btn-secondary"
+            >
+              View CV ↗
+            </a>
+            <a
               href={`mailto:${profileData.contact.email}`}
               className="btn-secondary"
             >
