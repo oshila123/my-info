@@ -170,6 +170,22 @@ export const featuredProjects = [
     tech: ['React', 'JavaScript', 'Firebase Hosting', 'SCSS'],
     demoUrl: 'https://oshila-movie.web.app/',
   },
+  {
+    id: 'medcore-healthcare-platform',
+    title: 'MedCore — Multi-Role Healthcare & Channeling Management System',
+    category: 'Personal Project',
+    summary:
+      'Enterprise healthcare and patient channeling management platform featuring granular role-based access control (RBAC) across 9 clinical and operational roles (Owner, Admin, Doctor, Nurse, Patient, Hospital Partner, Diagnostic Report Center, Accounts, HR, and Audit), strict Firestore security rules, NIC-linked patient records, diagnostic reporting, and real-time channeling schedules.',
+    tech: [
+      'React',
+      'TypeScript',
+      'Tailwind CSS',
+      'Firebase Authentication',
+      'Cloud Firestore',
+      'Cloudflare Workers',
+    ],
+    demoUrl: 'https://medcore-ozi.oshila123.workers.dev/',
+  },
 ];
 
 export const techCategories = [
